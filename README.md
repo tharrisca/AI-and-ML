@@ -24,6 +24,19 @@ We then started working threw the assigned analysis.  The value_counts(normalize
 
 The bar chart in question 5 was initially problematic as it became largely grayed out, but the high number of data points that were considered and the bar chart attribute that each data point is displayed by a small gray retangle, with the effect that the entire graph is largely grayed out in the obvious version of this graph.  We therefore created a "tidy" plot by creating a temporary dateset with sums for each type of coupon accepted, and that made the bar plot much more estetically pleasing. 
 
+The Histograph for problem 6 is easy but teh bars are not well centered on the data values.  After some time working on this to improve it I gave up for now and moved on.  
+
+## Investigating Bar Coupons
+
+This section went well and was largely intuitive, so will not be discussed much here.  Again, value_count(normalize = True) was my friend.
+
+Summary from problem 7 is copied from the notebook: Young people (under 30 years of old) who we know drink (have been to a bar at least once a month) are the most likley group to accept the bar coupon, from those groups we have considered.  It is also worth noting that the sum of the groups does not represent every possible scenario, so there are potentially other groups that have even higher acceptance rates.
+
+## Independant Investigation
+
+Here I chose to look at the Coffee House coupons.  I was able to graphically show that younger people are much more likely to accept Coffee House coupons.   I felt like the visualization support was particular useful in this section, and I was happy with the resulting acceptance rate data I generated.  One key step there was to order the age group values in sequential order, as they are actually strings, and will not be in the correct order if you allow default ordering.  Overall I enjoyed answering a quantitative question with "pretty pictures", ie images which told a story and not just numerical data.  
+
+
 
 
 
